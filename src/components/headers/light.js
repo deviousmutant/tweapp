@@ -72,9 +72,9 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href={process.env.PUBLIC_URL + "/#"}>About</NavLink>
-      <NavLink href={process.env.PUBLIC_URL + "/#"}>Get Featured</NavLink>
-      <NavLink href={process.env.PUBLIC_URL + "/#"}>THEPC</NavLink>
+      <NavLink href="https://www.thepcvit.com/#services">About</NavLink>
+      <NavLink href="mailto:thepcvit@gmail.com">Get Featured</NavLink>
+      <NavLink href="https://www.thepcvit.com">THEPC</NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href="http://twe.thepcvit.com/">Dashboard</PrimaryLink>
     </NavLinks>
   ];

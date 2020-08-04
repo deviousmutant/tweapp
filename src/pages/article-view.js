@@ -76,7 +76,8 @@ export default () => {
                   </HeadingRow>
                   <Text>
                     <SectionDescription><em>{post.authorName}</em></SectionDescription>
-                    <p>{post.acontent}</p>
+                    {/* <p>{post.acontent.split("\n").map(() => <br />) }</p> */}
+                    <p style={{ whiteSpace: "pre-wrap" }}>{post.acontent}</p>
                   </Text>
                 </ContentWithPaddingXl>
               )

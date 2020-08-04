@@ -38,10 +38,10 @@ const PrimaryAction = tw.button`rounded-full px-8 py-3 mt-10 text-sm sm:text-bas
 export default (props) => {
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href={process.env.PUBLIC_URL + "#"}>
+      <NavLink href="https://www.thepcvit.com/#services">
         About
       </NavLink>
-      <NavLink href={process.env.PUBLIC_URL + "#"}>
+      <NavLink href="mailto:thepcvit@gmail.com">
         Get Featured
       </NavLink>
       <NavLink href={"http://twe.thepcvit.com/"}>
